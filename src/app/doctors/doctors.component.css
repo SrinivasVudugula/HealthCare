@@ -1,0 +1,16 @@
+.doctore-text{
+    color: #0864b2;
+    padding: 10%;
+}
+.text-main-color{
+    color: #0864b2;
+    padding: 15%
+}
+.text-grey-2{
+    color: lightgoldenrodyellow;
+}
+.box{
+    height: 500px;
+    width: 100%;
+    background-color: lightgrey;
+}

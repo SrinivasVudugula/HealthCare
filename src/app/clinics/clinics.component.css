@@ -1,0 +1,27 @@
+.doctore-text{
+    color: #0864b2;
+    padding: 10%;
+}
+.text-main-color{
+    color: #0864b2;
+    padding: 15%
+}
+.text-grey-2{
+    color: aquamarine;
+}
+.box{
+    height: 500px;
+    width: 100%;
+    background-color: aliceblue;
+}
+.row no-gutters{
+    color: rgb(236, 22, 22);
+    height: 10px;
+    width: 100%;
+}
+.text-lime{
+    color:lawngreen;
+}
+.text-red{
+    color: pink;
+}

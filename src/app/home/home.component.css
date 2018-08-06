@@ -1,0 +1,51 @@
+.app-style{
+    background-color: rgba(247, 72, 72, 0.867);
+    
+    color:#eeeded;
+
+}
+.text-title-large{
+    color:#0864b2;
+    margin-left: 10%;
+}
+
+  
+  .col-md-2{
+      margin: 40px;
+      
+  }
+  .images{
+      background-color: #0864b2;
+      margin: 70px;
+      padding: 40px;
+      border-radius: 10%;
+ 
+  }
+  
+.first-search-input {
+    margin-right: 0px;
+    padding-right: 0px;
+}
+
+.next-search-input {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.background-st {
+    background-color: rgb(3, 21, 37);
+    width: 65%;
+    height: 10%;
+    margin: 0px;
+    padding: 0px;
+}
+.images:hover{
+    
+    position:relative;
+    top:-10px;
+    box-shadow:1px 1px 15px #0864b2;
+    transition-delay: 10ms;
+
+}
