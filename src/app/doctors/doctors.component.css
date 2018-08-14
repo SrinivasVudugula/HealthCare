@@ -1,3 +1,7 @@
+.row{
+    padding:1%;
+}
+
 .doctore-text{
     color: #0864b2;
     padding: 10%;
@@ -7,10 +11,36 @@
     padding: 15%
 }
 .text-grey-2{
-    color: lightgoldenrodyellow;
+    color: rgb(19, 19, 9);
+    padding: 1%;
 }
 .box{
-    height: 500px;
+    height: 600px;
     width: 100%;
     background-color: lightgrey;
 }
+.images{
+   margin: 0%;
+   margin-left: 0%;
+   padding: 0%;
+   
+}
+.container{
+    width:100%;
+    padding:5%;
+}
+.float {
+    -webkit-transition:all .3s ease-out;
+    -moz-transition:all .3s ease-out;
+    -ms-transition:all .3s ease-out;
+    -o-transition:all .3s ease-out;
+    transition:all .3s ease-out;
+  }
+  
+  .float:hover {
+    -webkit-transform:translate(0px,-10px);
+    -moz-transform:translate(0px,-10px);
+    -ms-transform:translate(0px,-10px);
+    -o-transform:translate(0px,-10px);
+    transform:translate(0px,-10px);
+  }

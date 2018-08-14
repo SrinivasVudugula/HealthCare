@@ -18,7 +18,7 @@
       background-color: #0864b2;
       margin: 70px;
       padding: 40px;
-      border-radius: 10%;
+      border-radius: 5%;
  
   }
   
@@ -46,6 +46,32 @@
     position:relative;
     top:-10px;
     box-shadow:1px 1px 15px #0864b2;
-    transition-delay: 10ms;
+    transition-delay: 100    ms;
 
 }
+.card{
+   background-color: #0864b2;
+   margin: 4%;
+   padding:4%;
+   border-radius: 5%;
+}
+.text-name{
+  padding: 3%;
+  text-align: inherit;
+
+}
+.float {
+    -webkit-transition:all .3s ease-out;
+    -moz-transition:all .3s ease-out;
+    -ms-transition:all .3s ease-out;
+    -o-transition:all .3s ease-out;
+    transition:all .3s ease-out;
+  }
+  
+  .float:hover {
+    -webkit-transform:translate(0px,-10px);
+    -moz-transform:translate(0px,-10px);
+    -ms-transform:translate(0px,-10px);
+    -o-transform:translate(0px,-10px);
+    transform:translate(0px,-10px);
+  }

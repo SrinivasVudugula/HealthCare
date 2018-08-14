@@ -6,12 +6,9 @@
 
 <div class="listing-search">
   <div class="row">
-      <div class="input-group">
-          <span class="input-group-addon"><i class="fa fa-search"></i></span>
-          <input id="email" type="text" class="form-control" name="email" placeholder="Email">
-        </div>
+      
       <div class="col-sm-2 col-md-2 col-lg-2 first-search-input">
-          <span class="input-group-addon"><i class="fa fa-search"></i></span>
+          
         <input class="form-control" type="text" placeholder="Keywords..." value="">
         <i class="fa fa-search"></i>
       </div>
@@ -28,20 +25,14 @@
     <!-- </div> -->
   </div>
   
-  <div>
-    <span class="images">
-
-      <img src="./assets/logos/categorie-1.png" > Doctors
-      
-    </span>
-    <span class="images">
-
-      <img src="./assets/logos/categorie-2.png"> Clinics
-    </span>
-    <span class="images">
-
-      <img src="./assets/logos/categorie-3.png"> Labs
-    </span>
-  </div>
-
+  <div class="app flex-row align-items-center ">   
+    <div class="container"> 
+        <div class="card-deck row">
+            <div class="card  col-xs-2 col-sm-2 col-md-2 float" *ngFor='let x of imagelist'>
+              <div class="float">  <img [src]="x.img" alt="Avatar" style="width: 60% " /></div><br/>  
+              <div class="text-name float"><h4>{{x.name}}</h4></div>  
+            </div>
+            </div>
+          </div>
+        </div>
 </div>

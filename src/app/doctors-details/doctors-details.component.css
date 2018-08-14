@@ -1,0 +1,10 @@
+.body {  
+    background-color: aliceblue;
+   padding: 5%;
+    background-image:image(doctor-1);
+}
+.img{
+    padding:10%;
+    align-self: center;
+    animation: 0ms;
+}

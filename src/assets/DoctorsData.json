@@ -1,0 +1,46 @@
+[ {"id" :1,
+  "details":{
+    "name": "sarah",
+    "age": 30,
+    "qualification": "mbbs",
+    "designation": "sr.doctor",
+    "experience" :"10years",
+    "specilist" : "cordiologist",
+    "img" :"./assets/images/doctor-1.jpg"
+  }
+ },
+  {"id" :2,
+    "details" :
+ { "name": "rakesh",
+    "age": 30,
+    "qualification": "mbbs",
+    "designation": "sr.pedetiots",
+    "experience" :"5",
+    "specilist" : "pedertics",
+    "img" :"./assets/images/doctor-2.jpg"
+    
+    }
+  },
+    {"id" :3,
+
+    "details" :{ "name": "ramya",
+    "age": 28,
+    "qualification": "md",
+    "designation": "consultant doctor",
+    "experience" :"3",
+    "specilist" : "gynocology",
+    "img" :"./assets/images/doctor-3.jpg"
+    }
+  },
+    {"id" :4,
+      "details" :
+    { "name": "sai",
+    "age": 31,
+    "qualification": "md",
+    "designation": "consultant",
+    "experience" :"6",
+    "specilist" : "orthosurgon",
+    "img" :"./assets/images/doctor-4.jpg"
+    }
+  }
+  ]

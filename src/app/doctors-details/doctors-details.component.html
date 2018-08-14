@@ -1,0 +1,12 @@
+<div class="body">
+<div *ngFor="let x of DoctorsDetails">
+  <li>{{x.id}}</li><br/>
+  <li>Doctore's Name :     {{x.details.name}}</li><br/>
+  <li>Age  : {{x.details.age}}</li><br/>
+  <li>Qualification :   {{x.details.qualification}}</li><br/>
+  <li>designation  :  {{x.details.designation}}</li><br/>
+  <li>Experience  : {{x.details.experience}}</li><br/>
+  <li>specilist  :  {{x.details.specilist}}</li><br/>
+ <div class="img"> <img [src]="x.details.img" /><br/></div>   
+ 
+</div>

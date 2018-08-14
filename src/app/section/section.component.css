@@ -4,3 +4,35 @@
     width: 100%;
     margin: 0px;
 }
+.images{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding:10%;
+    height: 10%;
+    
+
+}
+.container{
+    padding: 2%;
+    
+}
+.card{
+    background-color: lavender;
+    border-color: lavender
+}
+.float {
+    -webkit-transition:all .3s ease-out;
+    -moz-transition:all .3s ease-out;
+    -ms-transition:all .3s ease-out;
+    -o-transition:all .3s ease-out;
+    transition:all .3s ease-out;
+  }
+  
+  .float:hover {
+    -webkit-transform:translate(0px,-15px);
+    -moz-transform:translate(0px,-15px);
+    -ms-transform:translate(0px,-15px);
+    -o-transform:translate(0px,-15px);
+    transform:translate(0px,-15px);
+  }

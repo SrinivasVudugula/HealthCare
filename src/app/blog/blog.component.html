@@ -1,17 +1,33 @@
-<div class="container">
-    <div class="images">
-      <img src="http://mistillas.cl/wp-content/uploads/2018/04/Nike-Epic-React-Flyknit-%E2%80%9CPearl-Pink%E2%80%9D-01.jpg" />
-    </div>
-    <div class="product">
-      <p>Women's Running Shoe</p>
-      <h1>Nike Epic React Flyknit</h1>
-      <h2>$150</h2>
-      <p class="desc">The Nike Epic React Flyknit foam cushioning is responsive yet light-weight, durable yet soft. This creates a sensation that not only enhances the feeling of moving forward, but makes running feel fun, too.</p>
-      <div class="buttons">
-        <button class="add">Add to Cart</button>
-        <button class="like"><span>♥</span></button>
+<div class="box">
+    <div class="container">
+        <div class="row  "  *ngFor='let x of text'>
+            <div class="col-xs-4 col-sm-4 col-md-4">
+        <h4 class="doctore-text">{{x.heading}}</h4>
       </div>
+      <div class="col-xs-6 col-sm-6 col-md-6">
+          <p class="text-grey-2">{{x.message}}</p>
+          </div>
+          <div class="col-xs-2 col-sm-2 col-md-2 ">
+            <a href="#" class="text-main-color margin-tb-15px d-inline-block">
+              <span class="d-block float-left margin-right-10px margin-top-5px">{{x.link}}</span> </a>
+        </div>
+      </div>
+      </div>
+<div class="app flex-row align-items-center ">   
+    <div class="container" > 
+        <div class="card-deck row">
+            <div class="card  col-xs-6 col-sm-6 col-md-6 float" *ngFor='let x of bloglist' >
+               <tr><td> <div class="image"> <img [src]="x.img" alt="Avatar"  /> </div>
+               </td><br/>
+                <td>  
+                 <div class="imagee">       <h5><b>{{x.text}}</b></h5> 
+                        
+                        {{x.degination}}</div>
+                    </td>
+                    </tr>
+                     
+            </div>
+        </div>
     </div>
-  </div>
-  
-  
+</div>
+</div>

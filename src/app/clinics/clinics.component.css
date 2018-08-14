@@ -7,7 +7,8 @@
     padding: 15%
 }
 .text-grey-2{
-    color: aquamarine;
+    color: rgb(25, 29, 28);
+    padding: 2%;
 }
 .box{
     height: 500px;
@@ -25,3 +26,22 @@
 .text-red{
     color: pink;
 }
+.grow {
+    -webkit-transition:all 0.5s ease-out;
+    -moz-transition:all 0.5s ease-out;
+    -ms-transition:all 0.5s ease-out;
+    -o-transition:all 0.5s ease-out;
+    transition:all 0.5s ease-out;
+  }
+  
+  .grow:hover {
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -ms-transform:scale(1.1);
+    -o-transform:scale(1.1);
+    transform:scale(1.1);
+  }
+  .container{
+
+    padding:5%;
+  }

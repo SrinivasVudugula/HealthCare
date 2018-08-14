@@ -1,29 +1,28 @@
 <div class = "box">
-    <div class="container">
+    <div class="container" *ngFor='let x of text'>
       <div class="row">
           <div class="col-xs-4 col-sm-4 col-md-4">
-      <h4 class="doctore-text">Popular Clinics</h4>
+      <h4 class="doctore-text">{{x.heading}}</h4>
     </div>
     <div class="col-xs-6 col-sm-6 col-md-6">
-        <p class="text-grey-2">Lorem Ipsum is simply dummy text of the printing and typesetting in
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+        <p class="text-grey-2">{{x.message}}</p>
         </div>
         <div class="col-xs-2 col-sm-2 col-md-2 ">
           <a href="#" class="text-main-color margin-tb-15px d-inline-block">
-            <span class="d-block float-left margin-right-10px margin-top-5px">Show All</span> </a>
+            <span class="d-block float-left margin-right-10px margin-top-5px">{{x.link}}</span> </a>
       </div>
     </div>
     </div>
-    
+    <div class="app flex-row align-items-center" >
     <div class="container">
     <div class = "row">
-        <div class="col-xs-4 col-sm-4 col-md-4">
+        <div class="col-xs-4 col-sm-4 col-md-4 grow" *ngFor="let clinic of cliniclist">
     <div class="card">
-        <img src="./assets/images/clinic-1.jpg" alt="Avatar" style="width:100%">
+            <div class="images"> <img [src]="clinic.img" alt="Avatar" style="width:100%" /></div>
         <div class="container">
-            <a class="text-dark" href="#"><b>Alrayan Eye Clinic</b></a><br/>
+            <a class="text-dark" href="#"><b>{{clinic.name}}</b></a><br/>
             <div class="rating clearfix">
-                <span class="float-left text-grey-2"> California</span>
+                <span class="float-left text-grey-2"> {{clinic.city}}</span>
 
                 <ul class="float-right">
                     <li class="active"></li>
@@ -43,55 +42,6 @@
       </div>
       
       </div>
-      <div class="col-xs-4 col-sm-4 col-md-4">
-      <div class="card">
-          <img src="./assets/images/clinic-2.jpg" alt="Avatar" style="width:100%">
-          <div class="container">
-              <a class="text-dark" href="#"><b>Alrayan Eye Clinic</b></a><br/>
-              <div class="rating clearfix">
-                  <span class="float-left text-grey-2"> California</span>
-  
-                  <ul class="float-right">
-                      <li class="active"></li>
-                      
-                      
-                  </ul><br/>
-                  <div class="padding">
-                      <div class="row no-gutters">
-                          <div class="col-4"><a href="#" class="text-lime"> Open Now!</a></div>
-                          <div class="col-4 text-center"><a href="#" class="text-red"> Save</a></div>
-                          <div class="col-4 text-right"><a href="#" class="text-blue">Hospital</a></div>
-                      </div>
-                  </div>
-              </div>
-            </div>
-        </div>
-        </div>
-        <div class="col-xs-4 col-sm-4 col-md-4">
-        <div class="card">
-            <img src="./assets/images/clinic-3.jpg" alt="Avatar" style="width:100%">
-            <div class="container">
-                <a class="text-dark" href="#"><b>Alrayan Eye Clinic</b></a><br/>
-                <div class="rating clearfix">
-                    <span class="float-left text-grey-2"> California</span>
-    
-                    <ul class="float-right">
-                        <li class="active"></li>
-                        
-                        
-                    </ul><br/>
-                    <div class="padding">
-                        <div class="row no-gutters">
-                            <div class="col-4"><a href="#" class="text-lime"> Open Now!</a></div>
-                            <div class="col-4 text-center"><a href="#" class="text-red"> Save</a></div>
-                            <div class="col-4 text-right"><a href="#" class="text-blue">Hospital</a></div>
-                        </div>
-                    </div>
-                </div>
-              </div>
-          </div>
-          </div>
-          </div>
-          
-        </div>
+      
       </div>
+    </div>
